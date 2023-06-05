@@ -1,6 +1,6 @@
 #!/bin/bash
 
-appid=""
+appid="tops"
 today=$(date +%Y%m%d)
 fileStartup=/data/log/fileChange/$appid-$today-startup.txt
 fileChange=/data/log/fileChange/$appid-$today-filechange.txt
