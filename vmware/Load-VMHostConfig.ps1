@@ -3,7 +3,7 @@
 Import-Module VMware.PowerCLI.VCenter
 Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false -Confirm:$false
 Set-PowerCLIConfiguration -InvalidCertificateAction:Ignore -Confirm:$false
-Connect-VIServer -Server tesxivc01.obuat.corp
+Connect-VIServer
 
 $resultData = @{}
 
